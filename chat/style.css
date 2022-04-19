@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    text-align: left;
+    color: blueviolet;
+}
+
+#container {
+    width: 375px;
+    height: 667px;
+    border: 1px solid black;
+    margin: auto;
+}
+#titulo {
+    border: 1px solid black;
+    padding: 2px;
+}
+#chat {
+    margin: 9px;
+    width: 350px;
+    height: 580px;
+    border: 1px solid black;
+    text-align: center;
+}
+.mensagem {
+    border: 1px solid black;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 2px;
+}
+#atendimento{
+    margin-top: 3em;
+    margin-left: 1em;
+    text-align: left;
+}
+#vc {
+    margin-right: 1em;
+    text-align: right;
+}
+.text {
+    text-align: left
+}
+#msg {
+    margin-left: 0.8em;
+    width: 280px;
+}
+
+#button {
+    padding: 2px;
+    border: none;
+    border-radius: 2px;
+    width: 70px;
+    display: inline-block;
+    color: green;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+#button:hover {
+    background-color: green;
+    color: #ffffff;
+}
